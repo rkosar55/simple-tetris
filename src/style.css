@@ -1,0 +1,62 @@
+body {
+    background: #483b47;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    position: relative;
+    margin: auto;
+    border: 5px solid #342a33;
+    border-radius: 10px;
+    height: 90vh;
+}
+
+#container{
+    display: none;
+}
+
+#score{
+    text-align: center;
+    color: aliceblue;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+#info{
+    text-align: left;
+    color: aliceblue;
+    
+}
+
+.opacity {
+-moz-transition: all 0.4s; 
+-webkit-transition: all 0.4s;  
+-ms-transition: all 0.4s;  
+-o-transition: all 0.4s;  
+transition: all 0.4s; 
+opacity:1;
+filter:alpha(opacity=100);
+}
+ 
+.opacity:hover {
+opacity:0.7;
+filter:alpha(opacity=70);
+}
+
+#startButton{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    margin-top: 50%;
+    border: 5px solid #CD5C5C;
+    border-radius: 10px;
+    background-color: #F08080;
+    font-size: 50px;
+    color: #8B0000;
+}
