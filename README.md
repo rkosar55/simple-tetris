@@ -1,6 +1,6 @@
-#Tetris
+# Tetris
 
-##Playfield
+## Playfield
 
 * Playfield is 12 cells wide and at least 20 cells tall.
 
